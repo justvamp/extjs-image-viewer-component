@@ -41,7 +41,7 @@
 			Ext.BLANK_IMAGE_URL = 'ext-sources/resources/images/default/s.gif';
 
 			Ext.onReady(function() {
-				Ext.ux.imageViewer.register('#imagebox', true);
+				Ext.ux.imageViewer.register('#imagebox');
 				
 				Ext.ux.imageViewer.slideshowDelay = 5000;
 				Ext.ux.imageViewer.isAnimationEnabled = false;

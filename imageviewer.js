@@ -20,7 +20,7 @@ Ext.ux.imageViewer = (function(){
 	return {
 		overlayOpacity: 0.85,
 		isAnimationEnabled: true,
-		resizeSpeed: 8, // 1 to 10
+		fadeSpeed: 8, // 1 to 10
 		borderSize: 10,
 		labelImage: "Изображение",
 		labelOf: "из",
@@ -32,7 +32,7 @@ Ext.ux.imageViewer = (function(){
 		slideshowDelay: 5000,
 
 		init: function() {
-			this.resizeDuration = this.isAnimationEnabled ? ((11 - this.resizeSpeed) * 0.15) : 0;
+			this.fadeDuration = this.isAnimationEnabled ? ((11 - this.fadeSpeed) * 0.15) : 0;
 			this.overlayDuration = this.isAnimationEnabled ? 0.2 : 0;
 
 			if(!initialized) {
@@ -327,7 +327,7 @@ Ext.ux.imageViewer = (function(){
 				els.mainContainer.show();
 			} else {
 				els.mainContainer.fadeIn({
-					duration: this.resizeDuration,
+					duration: this.fadeDuration,
 					scope: this
 				});
 			}
