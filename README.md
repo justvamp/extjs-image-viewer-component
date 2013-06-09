@@ -25,3 +25,7 @@ This is a pretty simple image viewer component that uses ExtJS 3.4. You just hav
 * **hintSlideshow** (default: "Слайдшоу") - a hint for the "Slideshow" button;
 * **hintSlideshowClose** (default: "Закончить слайдшоу") - a hint for the "Close" button in a slideshow mode;
 * **hintClose** (default: "Закрыть") a hint for the "Close" button in a normal mode.
+
+### Online Example
+
+http://justvamp.ru/image-viewer/
