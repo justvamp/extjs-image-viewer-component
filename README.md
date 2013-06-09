@@ -18,10 +18,10 @@ This is a pretty simple image viewer component that uses ExtJS 3.4. You just hav
 * **overlayOpacity** (default: 0.85) - opacity for the overlay in a normal mode;
 * **fadeSpeed** (default: 8) - speed for a picture to fade in;
 * **borderSize** (default: 10) - border width of main elements in a normal mode;
-* **labelImage** (default: "Изображение") - a label for the "image" word;
-* **labelOf** (default: "из") - a label for the "of" word;
-* **hintNext** (default: "Следующая") - a hint for the "Next" button ;
-* **hintPrev** (default: "Предыдущая") - a hint for the "Previous" button;
-* **hintSlideshow** (default: "Слайдшоу") - a hint for the "Slideshow" button;
-* **hintSlideshowClose** (default: "Закончить слайдшоу") - a hint for the "Close" button in a slideshow mode;
-* **hintClose** (default: "Закрыть") - a hint for the "Close" button in a normal mode.
+* **labelImage** (default: "РР·РѕР±СЂР°Р¶РµРЅРёРµ") - a label for the "image" word;
+* **labelOf** (default: "РёР·") - a label for the "of" word;
+* **hintNext** (default: "РЎР»РµРґСѓСЋС‰Р°СЏ") - a hint for the "Next" button ;
+* **hintPrev** (default: "РџСЂРµРґС‹РґСѓС‰Р°СЏ") - a hint for the "Previous" button;
+* **hintSlideshow** (default: "РЎР»Р°Р№РґС€РѕСѓ") - a hint for the "Slideshow" button;
+* **hintSlideshowClose** (default: "Р—Р°РєРѕРЅС‡РёС‚СЊ СЃР»Р°Р№РґС€РѕСѓ") - a hint for the "Close" button in a slideshow mode;
+* **hintClose** (default: "Р—Р°РєСЂС‹С‚СЊ") a hint for the "Close" button in a normal mode.
